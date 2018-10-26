@@ -12,7 +12,6 @@
             "email": "yunwangjun@talkart.cc"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "TalkArtSocket\\": "src/"
