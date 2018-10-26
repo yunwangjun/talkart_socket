@@ -14,7 +14,7 @@
 
 namespace TalkArtSocket;
 /**
- * Autoload.
+ * SocketEvent.
  */
 class SocketEvent{
 
