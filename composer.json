@@ -1,0 +1,21 @@
+{
+    "name": "yunwangjun/talkart_socket",
+    "description": "use workman design a socket service",
+    "require": {
+        "workerman/gateway-worker": ">=3.0.0",
+        "workerman/mysql": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "贠王军",
+            "email": "yunwangjun@talkart.cc"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TalkArtSocket\\": "src/"
+        }
+    }
+}
