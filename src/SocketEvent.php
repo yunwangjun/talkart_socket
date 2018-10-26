@@ -20,7 +20,7 @@ class SocketEvent{
 
     public static function publush(){
 
-        echo date();
+        echo date('Y-m-d H:i:s'). "\t" . posix_getpid()."\n";
     }
 
     public static function notice($subject, $event, $data, $exclude){
